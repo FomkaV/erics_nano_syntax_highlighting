@@ -1,2 +1,5 @@
 # erics_nano_syntax_highlighting
-Syntax color highlighting for nano.
+
+Objective: make syntax highlighting for code look like this:
+
+
