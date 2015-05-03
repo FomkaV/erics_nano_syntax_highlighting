@@ -11,8 +11,15 @@ Example PHP:
 
 ![Imgur](http://i.imgur.com/Noc4WZj.png)
 
-Put this in the ~/.nanorc
+
+Installation instructions.
+
+Put all of these (someextension.nanorc) files under your ~/.nano/syntax directory.
+
+Then Put this in the ~/.nanorc
 
     include ~/.nano/syntax/css.nanorc                                                      
     include ~/.nano/syntax/html.nanorc                                                     
     include ~/.nano/syntax/php.nanorc
+
+Need an example image for the css one too.
