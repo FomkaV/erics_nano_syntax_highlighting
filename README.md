@@ -11,6 +11,10 @@ Example PHP:
 
 ![Imgur](http://i.imgur.com/Noc4WZj.png)
 
+Example CSS:
+
+![Imgur](http://i.imgur.com/hmmpf2R.png?1)
+
 
 Installation instructions.
 
