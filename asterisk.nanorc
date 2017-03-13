@@ -1,0 +1,23 @@
+## Asterisk syntax highlighting
+## v.01 09/28/07 - Asterisk Version 1.4.11
+
+syntax "conf" "\.conf$"
+icolor yellow "^[0-9A-Z_]+\(\)"
+color brightmagenta "\<(Verbose|include)\>"
+color brightblue "\<(|extension|exten|same|BEGIN|END)\>"
+icolor green "\<(ADSIProg|AgentCallbackLogin|AgentLogin|AgentMonitorOutgoing|AGI|AlarmReceiver|AMD|Answer|AppendCDRUserField|Authenticate|Background|BackgroundDetect|Busy|ChangeMonitor|ChanIsAvail|ChannelRedirect)\>"
+icolor green "\<(ChanSpy|Congestion|ContinueWhile|ControlPlayback|DateTime|DBdel|DBdeltree|DeadAGI|Dial|Dictate|Directory|DISA|DumpChan|EAGI|Echo|EndWhile|Exec|ExecIf|ExitWhile|ExtenSpy|ExternalIVR|FastAGI|Festival|Flash)\>"
+icolor green "\<(ForkCDR|GetPEID|Gosub|Gosubif|Goto|GotoIf|GotoIfTime|Hangup|HasNewVoicemail|HasVoicemail|IAX2Provision|ICES|ImportVar|Log|LookupBlacklist|LookupCIDName|Macro|MacroExclusive|MacroExit|MacroIf|MailboxExists|MeetMe)\>"
+icolor green "\<(MeetmeAdmin|MeetMeCount|Milliwatt|Monitor|MorseCode|MP3Player|MusicOnHold|NBScat|NoCDR|NoOp|Page|Park|ParkAndAnnounce|ParkedCall|PauseMonitor|PauseQueueMember|PickUp|Playback|Playtones|PrivacyManager|Progress)\>"
+icolor green "\<(Queue|QueueLog|Random|Read|ReadFile|RealTime|RealTimeUpdate|Record|RemoveQueueMember|ResetCDR|RetryDial|Return|Ringing|SayAlpha|SayDigits|SayNumber|SayPhonetic|SayUnixTime|SendDTMF|SendImage|SendText|SendURL)\>"
+icolor green "\<(Set|SetAMAFlags|SetCallerID|SetCallerPres|SetCDRUserField|SetGlobalVar|SetMusicOnHold|SetTransferCapability|SIPAddHeader|SIPDtmfMode|SLAStation|SLATrunk|SoftHangup|StackPop|StartMusicOnHold|StopMixMonitor)\>"
+icolor green "\<(StopMonitor|StopPlaytones|StopMusicOnHold|System|Transfer|TryExec|TrySystem|UnpauseMonitor|UnpauseQueueMember|UserEvent|VMAuthenticate|VoiceMail|VoiceMailMain|Wait|WaitExten|WaitForRing)\>"
+icolor green "\<(WaitForSilence|WaitMusicOnHold|While|Zapateller|ZapBarge|ZapRAS|ZapScan)\>"
+color brightgreen "(\{|\}|\(|\)|`|\\|\$|<|>|!|=|&|\|)"
+icolor brightmagenta "(\]|\[)"
+color yellow "_[XZN0-9]*\>"
+icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
+color brightyellow ""(\\.|[^"])*"" "'(\\.|[^'])*'"
+color brightred "[\{\}]"
+color cyan ";.*"
+
