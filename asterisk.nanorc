@@ -19,5 +19,6 @@ color yellow "_[XZN0-9]*\>"
 icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
 color brightyellow ""(\\.|[^"])*"" "'(\\.|[^'])*'"
 color brightred "[\{\}]"
+color brightmagenta "[?]|[,]"
 color cyan ";.*"
 
